@@ -6,10 +6,10 @@ import { createRoot } from 'react-dom/client';
 
 import './style/style.scss';
 
-const marvelService = new MarvelService();
+// const marvelService = new MarvelService();
 
 // Здесь вы можете обработать результат запроса, например, вывести его в консоль
-marvelService.getAllCharacters().then(res => res.data.results.forEach(item => console.log(item.name)));
+// marvelService.getAllCharacters().then(res => res.data.results.forEach(item => console.log()));
 
 // Создайте корневой элемент для React 18 перед вызовом ReactDOM.render
 const rootElement = document.getElementById('root');
