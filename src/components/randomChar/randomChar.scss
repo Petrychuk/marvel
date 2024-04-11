@@ -3,6 +3,7 @@
 .randomchar {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    align-items: center;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     &__block {
         padding: 40px 35px;
@@ -59,4 +60,8 @@
         bottom: 14px;
         right: -37px;
     }
+    .randomchar__descr-scroll {
+    max-height: 120px; /* Вы можете изменить эту высоту по вашему усмотрению */
+    overflow-y: auto;
+}
 }
